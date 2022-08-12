@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="build\css\scss\app.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <main>
+    <section class="section1">
+      <h1>Learn to code by watching others</h1>
+     
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p>
+
+       
+    </section>
+    <section class="section2">
+      <div class="accent">
+        <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+      
+      <form id="form" action="">
+        <input type="text" name="name" id="name" placeholder="First Name">
+        <p class="error1">First Name cannot be empty <i class='bx bx-error-circle'></i></p>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+        <p class="error2">Last Name cannot be empty <i class='bx bx-error-circle'></i></p>
+        <input type="email" name="email" id="email" placeholder="Email Address">
+          <p class="error3">Looks like this is not and email <i class='bx bx-error-circle'></i></p>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <p class="error4">Password cannot be empty <i class='bx bx-error-circle'></i></p>
+    
+        <button class="btn" id="formSub" type="submit">Claim your free trial</button>
+        
+        <div class="terms">
+          <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>.</p>
+        </div> 
+      </form>
+       
+      
+    </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Julian Perez</a>.
+    </p>
+  </footer>
+  </main>
+
+  
+  
+  <script src="./src/js/script.js"></script>
+</body>
+</html>

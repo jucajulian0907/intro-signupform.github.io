@@ -1,0 +1,48 @@
+form p {
+  width: 100%;
+}
+
+.error1 {
+  visibility: hidden;
+  text-align: right;
+  color: $red-red;
+}
+
+.error2 {
+  visibility: hidden;
+  text-align: right;
+  color: $red-red;
+}
+
+.error3 {
+  visibility: hidden;
+  text-align: right;
+  color: $red-red;
+}
+
+.error4 {
+  visibility: hidden;
+  text-align: right;
+  color: $red-red;
+}
+
+i {
+  top: -50px;
+  position: relative;
+  vertical-align: middle;
+  font-size: 22px;
+  animation: opacity 3s infinite alternate;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}

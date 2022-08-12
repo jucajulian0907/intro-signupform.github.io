@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-image: url("/src/images/bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $red-red;
+  font-family: $font;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 50px;
+  }
+}
+
+.section1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+
+  h1 {
+    font-weight: $semibold;
+    font-size: 30px;
+  }
+
+  p {
+    font-weight: $medium;
+  }
+}
+
+.accent {
+  background-color: $blue;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: $regular;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: -1px 10px 6px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 10px 6px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 10px 6px 0px rgba(0, 0, 0, 0.3);
+
+  span {
+    font-weight: $semibold;
+  }
+}
+
+.section2 {
+  width: 100%;
+
+  .terms p {
+    text-align: center;
+    color: $Grayish-Blue;
+    font-size: 14px;
+  }
+
+  a {
+    font-weight: $semibold;
+    color: $red-red;
+    text-decoration: none;
+  }
+}
+
+.attribution {
+  text-align: center;
+  color: white;
+
+  a {
+    text-decoration: none;
+    color: $Dark-Blue;
+  }
+}
